@@ -17,6 +17,7 @@ body{
     background-color: var(--color-dark1);
     color: var(--color-white);
 }
+
 .img_logo_header{
     width: 150px;
     height: 50px;
@@ -71,25 +72,20 @@ body{
  }
 
 .creatPost{
+    border-radius: 7px;
+    margin-top: 20px;
     margin-left: 33vw;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 35vw;
     height: 80px;
+    background-color:   rgb(53, 52, 52);
 }
 
-.creatPost a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    background: var(--color-purple);;
-    color: var(--color-white);
-    border-radius: 7px;
-    width: 200px;
-    height: 40px;
-}
+
+
+
 
 .puplicação{
     padding: 20px ;
@@ -97,7 +93,7 @@ body{
     margin-left: 25vw;
     background-color: #b9b9b9;
     width: 50%;
-    height: 20%px;
+    height: 20% ;
     border-radius: 7px;
 }
 
@@ -106,36 +102,45 @@ body{
     max-width: 52px;
 }
 
-.puplicação p{
-    color: var(--color-dark1);
-}
-
-.puplicação article p{
-    color: black;
-    padding: 5px 65px;
-}
-
-.cont-perfil{
+.creatPost{
     display: flex;
-    align-items: center;
+    justify-content: space-around;
 }
 
+.creatPost img{
+    max-width: 42px;
+}
+.creatPost textarea{
+    margin-bottom: 30px;
+    resize: none;
+    font-size: 18px;
+    margin-top: 30px;
+    min-height: 6vh;
+    min-width: 20vw;
+    outline: none;
+    border: none;
 
-.list{
-    gap: 15px;
-    margin-top: 10px;
-    display: flex;
-    padding: 5px 65px;
-    list-style: none;
-    height: 42px;
-    width: 42px;
-    border-radius: 50%;
+}
+.creatPost button{
+height: 40px;
+width: 100px;
+border: none;
+cursor: no-drop;
+font-size: 12px;
+font-weight: 500;
+color: #bcc0c4;
+border-radius: 7px;
 }
 
-.list img{
-    width: 25px;
-    height: 25px;
+.creatPost textarea:valid ~ button {
+    height: 40px;
+    width: 100px;
+    color: #fff;
+    cursor: pointer;
+    border-style: none;
+    background: #4599ff;
 }
+
 
 
 
@@ -159,3 +164,5 @@ body{
     from {margin-left: -100vw;}
     to {margin-left: -10vw;}
 }
+
+

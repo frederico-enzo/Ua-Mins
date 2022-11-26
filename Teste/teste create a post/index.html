@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloundflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <title>Nova Publicação</title>
 </head>
 
@@ -27,7 +26,7 @@
                                 </div>
                             </div>
                         </div>
-                        <textarea placeholder="Qual é sua pergunta" required></textarea>
+                        <textarea id="textbar"  placeholder="Qual é sua pergunta" required></textarea>
                         <div class="thene-emoji">
                                 <img src="../teste create a post/img/smile.svg" alt="">
                         </div>
@@ -39,11 +38,11 @@
                                 <li><img src="../teste create a post/img/more.svg" alt=""></li>
                             </ul>
                         </div>
-                        <button>Postar</button>
+                        <button id="btn-post" onclick="newpost()">Postar</button>
                     </form>
                 </section>
             </div>
-        </div>
-</body>
+        </div  >
+        <script src="../JavaScript/index.js"></script></body>
 
 </html>
