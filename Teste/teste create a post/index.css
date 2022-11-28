@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(#b040ff, #343434);
+    background: linear-gradient(311.76deg, #b8d2f3 -15.24%, #e4e1e1 78.85%);    color: var(--color-white);
 }
 
 .conteiner {
